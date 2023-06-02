@@ -1,0 +1,32 @@
+
+.full-item__title:hover {
+	text-decoration: underline;
+}
+
+.full-item__description span {
+	color: red;
+}
+
+.full-item__link:hover {
+	background-color: rgb(192, 171, 49);
+}
+
+.full-item__back a:hover {
+	text-decoration: underline;
+}
+.full-item__back a::before {
+	content: '\2190';
+	display: inline-block;
+}
+.full-item__img {
+	margin: 20px 0px 0px 0px;
+	height: 150px;
+	width: 120px;
+	overflow: hidden;
+}
+.full-item__img img {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	object-fit:cover;
+}

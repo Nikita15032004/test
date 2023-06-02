@@ -1,0 +1,28 @@
+.book-wrapper {
+	margin: 30px 0px 0px 0px;
+	display: grid; 
+	grid-template-columns: 20% 20% 20% 20%; 
+	row-gap: 40px; 
+	column-gap: 5%;
+}
+.book-wrapper span {
+	color: red;
+}
+@media (max-width: 1200px) {
+	.book-wrapper {
+		grid-template-columns: 25% 25% 25%; 
+		column-gap: 8%;
+	}
+}
+@media (max-width: 1000px) {
+	.book-wrapper {
+		grid-template-columns: 40% 40%; 
+		column-gap: 10%;
+	}
+}
+@media (max-width: 767px) {
+	.book-wrapper {
+		grid-template-columns: 100%; 
+		column-gap: 0;
+	}
+}

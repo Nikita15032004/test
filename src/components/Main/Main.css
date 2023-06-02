@@ -1,0 +1,19 @@
+html, body {
+	background-color: #fff;
+}
+
+.paginaton-button {
+	font-size: 22px;
+	transition: all 0.7s;
+	color: #fff;
+	margin: 0px 10px 0px 0px;
+}
+.paginaton-button:last-child {
+	margin: 0;
+}
+.paginaton-button._active {
+	color: #00ff22;
+}
+.paginaton-button:hover {
+	color: #8dfd9e;
+}

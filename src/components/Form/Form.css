@@ -1,0 +1,17 @@
+
+.found-input {	
+	border-radius: 15px;
+	border: 2px solid #000;
+	width: 300px;
+	height: 40px;
+	color: #000;		
+}
+@media (max-width: 400px) {
+	.found-input {
+		width: 200px;
+	}
+}
+.found-input:focus {
+	border: 2px solid #32bc22;
+}
+
